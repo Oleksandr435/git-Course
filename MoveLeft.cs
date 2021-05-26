@@ -31,7 +31,7 @@ public class MoveLeft : MonoBehaviour
         if (playerControlleerScript.gameOver == false)
         {
             transform.Translate(Vector3.left * Time.deltaTime * speed);
-        }
+        }else (){ };
     }
     /* I only start learn programming at Unity Learn course, and git*/
 
